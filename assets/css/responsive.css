@@ -1,0 +1,159 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 1900px) {
+}
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (max-width: 991px) {
+  .landing-wrapper .signboard::after {
+    display: none;
+  }
+
+  .landing-wrapper {
+  }
+
+  .landing-wrapper .signboard {
+    padding-bottom: 50px;
+  }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+  .header::after {
+    width: 50px;
+    height: 50px;
+  }
+
+  .logo img {
+    max-width: 120px;
+  }
+
+  .header .top-links {
+    font-size: 11px;
+    margin-top: 10px;
+  }
+
+  .logo {
+    display: block;
+    text-align: center;
+  }
+
+  .header .links {
+    text-align: center;
+  }
+
+  .header .links a {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  .landing-wrapper {
+    padding: 30px 0px;
+  }
+
+  .title h2 {
+    font-size: 35px;
+  }
+
+  .title h3 {
+    font-size: 30px;
+  }
+
+  .landing-wrapper .title {
+    padding-bottom: 0px;
+  }
+  .landing-wrapper h3 {
+    font-size: 21px;
+  }
+  .single-sign h4 {
+    font-size: 22px;
+  }
+
+  .single-sign p {
+    font-size: 16px;
+  }
+
+  .single-sign {
+    margin-top: 20px;
+  }
+
+  .isi.sticky .container .moduletable .custom {
+    padding-right: 15px;
+  }
+
+  .header {
+    padding: 15px 0px 10px;
+  }
+  .secondary-title {
+    font-size: 20px;
+  }
+
+  .subcription-box h4 {
+    font-size: 18px;
+  }
+
+  .subcription-box form {
+    width: 100%;
+  }
+
+  .subcription-area {
+    padding-bottom: 150px;
+  }
+
+  .subcription-area.seven {
+    padding-bottom: 200px;
+  }
+  .single-resource {
+    min-height: 300px;
+    margin-top: 20px;
+    padding: 50px;
+  }
+
+  .resources .bordered-btn {
+    margin-top: 20px;
+  }
+
+  .resources {
+    padding: 50px 0px;
+  }
+
+  .single-resource p {
+    font-size: 13px;
+  }
+
+  .single-resource h4 {
+    font-size: 20px;
+  }
+  .subcription-box label {
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 5px;
+  }
+
+  .subcription-box input {
+    margin-bottom: 5px;
+  }
+  .signposts {
+    padding: 50px 0px;
+  }
+  .shape {
+    height: 50px;
+  }
+
+  .title.big h2 {
+    font-size: 32px;
+  }
+
+  .quizwrap {
+    min-height: auto;
+  }
+
+  .big-btn {
+    font-size: 24px;
+    padding: 8px 15px;
+  }
+}
